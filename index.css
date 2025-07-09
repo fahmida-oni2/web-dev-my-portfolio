@@ -89,6 +89,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom:130px ;
+}
 .about-bg{
     padding: 131px 157px ;
 }
@@ -99,4 +103,40 @@ main{
 }
 .item-description{
     font-weight: bold;
+}
+.skills{
+padding: 130px auto;
+}
+.title{
+text-align: center;
+font-weight: bold;
+font-size: 35px;
+
+}
+.description{
+text-align: center;
+color: #757575;
+font-weight: 600;
+font-size: 18px;
+
+}
+.card-item{
+display: flex;
+gap: 24px;
+
+}
+.sk{
+margin-right: 60;
+box-shadow:0px 6px 50px 0px white;
+padding: 30px;
+border-radius: 5px;
+}
+.skill-title{
+
+}
+.skill-description{
+
+}
+.img{
+    padding: 30px 193px 30px 303px;
 }
