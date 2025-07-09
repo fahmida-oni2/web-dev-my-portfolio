@@ -45,8 +45,6 @@ nav li a{
 
 .button-style{
     border-radius: 5px;
-    /* width: 150px;
-    height: 64; */
     background-color:#FD6E0A ;
     font-weight: bold;
     font-size: 20px;
@@ -151,4 +149,28 @@ border-radius: 5px;
     font-weight: 600;
     font-size: 16px;
     color: #757575;
+}
+.footer{
+    display: flex;
+    gap: 100px;
+}
+footer input[type="text"], footer input[type="email"], footer input[type="name"]{
+    display: block;
+    margin: 10px 20px;
+    background-color: white;
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 5px;
+    height: 64px;
+    border: none;
+}
+.left{
+    width: 50%;
+    margin-left: 180px;
+}
+.right{
+    width: 50%
+}
+footer button[type="submit"]{
+    margin-bottom: 130px;
 }
