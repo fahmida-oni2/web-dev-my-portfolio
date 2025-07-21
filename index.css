@@ -52,6 +52,9 @@ nav li a{
     color: #FFFFFF;
     border: none;
 }
+.button-style:hover {
+    background-color: aqua;
+}
 .color-bg{
     color: #FD6E0A;
 }
@@ -180,9 +183,12 @@ footer button[type="submit"]{
     display: none;
 }
 @media screen and (max-width:576px){
-    .card-item,.edu-exp ,.about-items, .footer{
+    .card-item,.edu-exp ,.about-items, .footer,
+    .banner,nav ul,nav
+    {
         flex-direction: column;
     }
+    .header{background-position: auto;}
     .right{
         width: 100%;
         
@@ -193,4 +199,14 @@ footer button[type="submit"]{
     .about-bg{
         padding: 0px;
     }
+    nav ul ,.content button{
+        gap: 20px;
+    }
+    .banner{
+        padding: 0px 35px 0px 35px;
+    }
+    body{
+        margin: 0%;
+    }
+
 }
