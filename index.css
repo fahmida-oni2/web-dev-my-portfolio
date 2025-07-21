@@ -183,6 +183,10 @@ footer button[type="submit"]{
     display: none;
 }
 @media screen and (max-width:576px){
+    body{
+        align-content: center;
+        margin-left: 5px;
+    }
     .card-item,.edu-exp ,.about-items, .footer,
     .banner,nav ul,nav
     {
@@ -205,8 +209,12 @@ footer button[type="submit"]{
     .banner{
         padding: 0px 35px 0px 35px;
     }
-    body{
-        margin: 0%;
-    }
+
+    .pic{
+    width: 300px;
+    height: 400px;
+   
+}
+    
 
 }
