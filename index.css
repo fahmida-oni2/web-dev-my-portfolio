@@ -159,10 +159,11 @@ footer input[type="text"], footer input[type="email"], footer input[type="name"]
     margin: 10px 20px;
     background-color: white;
     margin-bottom: 24px;
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
     height: 64px;
     border: none;
+    padding-right: 20px;
 }
 .left{
     width: 50%;
@@ -173,4 +174,23 @@ footer input[type="text"], footer input[type="email"], footer input[type="name"]
 }
 footer button[type="submit"]{
     margin-bottom: 130px;
+}
+
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+    .card-item,.edu-exp ,.about-items, .footer{
+        flex-direction: column;
+    }
+    .right{
+        width: 100%;
+        
+    }
+    .left{
+        margin-left: 0px;
+    }
+    .about-bg{
+        padding: 0px;
+    }
 }
